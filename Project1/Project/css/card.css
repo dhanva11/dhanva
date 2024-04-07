@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'Charriot Deluxe';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Charriot Deluxe'), url('https://fonts.cdnfonts.com/s/7627/CharriotDeluxe.woff') format('woff');
+}
+
+.card-section {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.card-section,
+a {
+    text-decoration: none;
+    opacity: 1;
+}
+
+.card-section a:hover {
+    opacity: 0.5;
+}
+
+.image {
+    display: flex;
+    justify-items: center;
+    margin-right: 15px;
+}
+
+.img-content {
+    border: 3px solid black;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.info-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.info-text {
+    display: flex;
+    margin-top: 5px;
+    margin-left: 15px;
+    font-size: 12px;
+    line-height: 16px;
+    color: black;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: 'Charriot Deluxe', sans-serif;
+}
+
+.info-text span {
+    font-size: medium;
+}
+
+#info-title {
+    font-weight: 900;
+    font-size: small;
+    font-family: 'Press Start 2P';
+}
+
+.card {
+    background-color: #ff9800;
+    border: 3px solid lightgray;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.43);
+    border-radius: 5px;
+    min-height: 250px;
+    min-width: 500px;
+    max-width: 500px;
+    display: none;
+    margin: 20px 20px;
+}
+
+.show {
+    display: block;
+}
+
+.title-bar {
+    height: 35px;
+    width: 100%;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.title-text {
+    text-align: center;
+    color: black;
+    width: 100%;
+    font-family: 'Press Start 2P';
+    font-size: small;
+}
+
+#red {
+    height: 10px;
+    width: 10px;
+    background-color: #f74544;
+    border-radius: 50%;
+    margin-left: 15px;
+    border: 1px solid darken(#f74544, 10%);
+}
+
+#orange {
+    height: 10px;
+    width: 10px;
+    background-color: orange;
+    border-radius: 50%;
+    margin-left: 15px;
+    border: 1px solid darken(orange, 10%);
+}
+
+#green {
+    height: 10px;
+    width: 10px;
+    background-color: green;
+    border-radius: 50%;
+    margin-left: 15px;
+    border: 1px solid darken(green, 10%);
+}
